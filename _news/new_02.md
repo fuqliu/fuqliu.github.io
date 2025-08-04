@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-The first-author paper, "[Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting](https://arxiv.org/pdf/2412.08099)", is accepted in AISTATS 2025.
+The first-author paper, "[Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting](https://arxiv.org/pdf/2412.08099)", was accepted in AISTATS 2025.
