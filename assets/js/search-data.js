@@ -28,13 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-the-first-author-paper-adversarial-vulnerabilities-in-large-language-models-for-time-series-forecasting-is-accepted-in-aistats-2025",
+          title: 'The first-author paper, “Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting”,...',
           description: "",
           section: "News",},{id: "news-chosen-as-the-best-reviewer-award-in-aistats-25-see",
           title: 'Chosen as the best reviewer award in AISTATS’25. see',
