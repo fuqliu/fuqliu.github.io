@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D.,<a href='#'>McGill University</a>, Email: Fuqiang_dot_liu_at_mail_dot_mcgill_dot_ca
+subtitle: Ph.D.,<a href='#'>McGill University</a>, Fuqiang_dot_liu_at_mail_dot_mcgill_dot_ca
 
 profile:
   align: right
