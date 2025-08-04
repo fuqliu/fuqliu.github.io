@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D., <a href='#'>McGill University</a>, Fuqiang.liu_at_mail.mcgill_dot_ca
+subtitle: Ph.D., <a href='https://www.mcgill.ca/cim/'>Center for Intelligent Machines</a>, McGill University, CA
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Centre4Intelligent Machines</p>
     <p>McGill University</p>
     <p>Montreal, QC, CA</p>
 
@@ -27,8 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Fuqiang, an about-to-graduate Ph.D. at [McGill University](https://www.mcgill.ca/), CA, co-supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Before that, I received my Master’s degree in Electrical and Computer Engineering and Electrical and Communication Engineering from [Clarkson University](https://www.clarkson.edu/), USA, and [BIT](https://english.bit.edu.cn/), CN, respectively. I earned my Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), CN. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on AI safety, specifically, to identify the potential risks hidden in AI and construct resilient solutions for practical intelligent systems.
