@@ -6,8 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-#### See my [Google Scholar](https://scholar.google.com/citations?user=_8DtvZ4AAAAJ&hl=en) profile for the full list of publications.
----
+#### See my [Google Scholar](https://scholar.google.com/citations?user=_8DtvZ4AAAAJ&hl=en) for the full list of publications.
 
 <!-- _pages/publications.md -->
 
