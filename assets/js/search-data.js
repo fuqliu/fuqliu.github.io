@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "A collection of projects to identify the adversarial risks in practical AI models and to build reliable intelligent systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
