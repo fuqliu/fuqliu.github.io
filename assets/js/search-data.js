@@ -31,7 +31,7 @@ ninja.data = [{
             },},{id: "news-i-participated-in-neuips-24-safe-generative-ai-with-a-poster-presentation",
           title: 'I participated in NeuIPS’24 Safe Generative AI with a poster presentation.',
           description: "",
-          section: "News",},{id: "news-the-first-author-paper-adversarial-vulnerabilities-in-large-language-models-for-time-series-forecasting-is-accepted-in-aistats-2025",
+          section: "News",},{id: "news-the-first-author-paper-adversarial-vulnerabilities-in-large-language-models-for-time-series-forecasting-was-accepted-in-aistats-2025",
           title: 'The first-author paper, “Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting”,...',
           description: "",
           section: "News",},{id: "news-i-am-glad-to-be-chosen-as-the-best-reviewer-award-in-aistats-25-see",
