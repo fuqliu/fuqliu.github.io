@@ -4,7 +4,7 @@
 
 title: Fuqiang LIU # the website title (if blank, full name will be used instead)
 first_name: Fuqiang
-middle_name: (Foo)
+middle_name:
 last_name: LIU
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -175,6 +175,12 @@ exclude:
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
+  - pages/blog.md
+  - pages/books.md
+  - pages/cv.md
+  - pages/dropdown.md
+  - pages/repositories.md
+  - pages/teaching.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
