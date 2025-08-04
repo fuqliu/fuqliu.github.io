@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am glad to be chosen as the best reviewer award in AISTATS'25. [see](https://aistats.org/aistats2025/awards.html)
+I was glad to be chosen as the best reviewer award in AISTATS'25. [see](https://aistats.org/aistats2025/awards.html)
