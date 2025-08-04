@@ -2,9 +2,11 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: See <a href="https://scholar.google.com/citations?user=_8DtvZ4AAAAJ&hl=en">My Google Scholar</a> to check the full list of publications.
+description:
 nav: true
 nav_order: 2
+---
+See my [Google Scholar profile](https://scholar.google.com/citations?user=_8DtvZ4AAAAJ&hl=en) for the full list of publications.
 ---
 
 <!-- _pages/publications.md -->
