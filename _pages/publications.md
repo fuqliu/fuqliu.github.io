@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Selected Publications
+title: Publications
 description: See [My Google Scholar](https://scholar.google.com/citations?user=_8DtvZ4AAAAJ&hl=en) to check the full list of publications.
 nav: true
 nav_order: 2
