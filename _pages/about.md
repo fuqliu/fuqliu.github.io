@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D.,<a href='#'>McGill University</a>, Fuqiang_dot_liu_at_mail_dot_mcgill_dot_ca
+subtitle: Ph.D., <a href='#'>McGill University</a>, Fuqiang.liu_at_mail.mcgill_dot_ca
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Centre for Intelligent Machines</p>
+    <p>Centre4Intelligent Machines</p>
     <p>McGill University</p>
     <p>Montreal, QC, CA</p>
 
