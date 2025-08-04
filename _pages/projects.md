@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of projects to identify the adversarial risks in practical AI models and to build reliable intelligent systems. 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
