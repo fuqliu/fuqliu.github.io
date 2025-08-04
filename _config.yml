@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Fuqiang LIU # the website title (if blank, full name will be used instead)
+title: Fuqiang Liu # the website title (if blank, full name will be used instead)
 first_name: Fuqiang
-middle_name:
+middle_name: 
 last_name: LIU
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  A sudden warm rainstorm washes down in sweet hyphens.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
