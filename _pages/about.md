@@ -28,7 +28,7 @@ latest_posts:
 
 I am Fuqiang, an about-to-graduate Ph.D. at [McGill Uni](https://www.mcgill.ca/), CA, co-supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Before that, I received my Master’s degree in Electrical and Computer Engineering from [Clarkson Uni](https://www.clarkson.edu/), USA, and [BIT](https://english.bit.edu.cn/), CN, respectively. I earned my Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), CN. 
 
-My research focuses on AI safety, specifically, to identify the potential risks hidden in AI and construct resilient solutions for practical intelligent systems.
+My research focuses on **AI safety**, specifically, to identify the potential risks hidden in AI and construct resilient solutions for practical intelligent systems.
 
 #### Potential Risks of LLM in Time Series Forecasting
 
