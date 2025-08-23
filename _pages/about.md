@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: Ph.D., <a href='https://www.mcgill.ca/cim/'>Center for Intelligent Machines</a>, McGill University, CA
