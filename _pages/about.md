@@ -39,9 +39,9 @@ My research focuses on **AI safety**, specifically, to identify the potential ri
 
 ##### 2.Accurate and robust Intelligent Transportion System (ITS)
 
- - [Model-agnostic solutions for more accurate ITS.](https://ieeexplore.ieee.org/abstract/document/9737430)
+ - [Model-agnostic solutions for more accurate ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430)
 
- - [Model-agnostic solutions for more robust ITS.](https://ieeexplore.ieee.org/document/10068359)
+ - [Model-agnostic solutions for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
 
 Prior to my doctorate, I earned two MScs——one in Communication Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and another in Electrical and Computer Engineering from [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
 
