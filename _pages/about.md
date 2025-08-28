@@ -35,7 +35,7 @@ My research focuses on **AI safety**, specifically, to identify the potential ri
 
  - [Sparse attacks against LLM in time series forecasting.](https://openreview.net/pdf?id=oL806RzbDi) 
 
-##### 2. Accurate and robust Intelligent Transportion System (ITS)
+##### 2. Resilient Intelligent Transportion System (ITS)
 
  - [Model-agnostic solutions for more accurate ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430)
 
