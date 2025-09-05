@@ -1,13 +1,12 @@
 ---
 layout: page
 permalink: /service/
-title: Services
+title: Professional Services
 description: 
 nav: true
 nav_order: 6
 ---
 
-## Professional Services
 ---
 Reviewer/Program Committee (AI Conference)
  - [NeurIPS](https://neurips.cc/) 2022 2023 2024 2025
