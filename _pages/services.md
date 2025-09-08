@@ -17,9 +17,9 @@ Reviewer/Program Committee (AI Conference)
  - [IJCAI](https://www.ijcai.org/) 2023 2024
 
 Reviewer (Peer-Reviewed Journals)
- - [IEEE Transaction on Neural Network and Learning System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) 
- - [IEEE Transaction on Fuzzy System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)
- - [Ieee Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)
+ - [IEEE Transactions on Neural Network and Learning System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) 
+ - [IEEE Transactions on Fuzzy System](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=91)
+ - [IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)
  - [Information Fusion](https://www.sciencedirect.com/journal/information-fusion)
  - [Transportation Research Part C](https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies)
  - [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 
