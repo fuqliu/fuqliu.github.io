@@ -1,80 +1,19 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: More Accurate Forecasting
+description: Two model-agnostic solutions to improve deep learning–based traffic forecasting.
 img:
 importance: 3
-category: fun
+category: Resilient ITS
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project explores model-agnostic approaches for enhancing the performance of deep learning–based traffic forecasting, which is composed of two publications:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ - [Error adjustment based on spatiotemporal correlation fusion for traffic forecasting](https://pdf.sciencedirectassets.com/272144/1-s2.0-S1566253525X00117/1-s2.0-S1566253525007079/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLWVhc3QtMSJGMEQCICz0RiV%2BkpKvXkf%2FPIYYSyiPg8JfcRM1he0ujIGbXcMVAiBe%2F7jIynGvv%2BoKzKNxJ9p9hHzqn7d8WBnQe5%2B1T6E4Yyq8BQjH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMh%2FlB2mxWnWYmtR69KpAFy42QC49AJ0n4xtx2%2BwZ1ezBB2EOr%2BlYXhW2ZbY0G6OHF17NwIhAwXu5vr%2Bi%2FvkKwXvZhyO4L0gLHhJGwO6W%2B7tWW5RyuVg8vSj6WHLG1DsVKXf0jV%2FswmUfQKJXch9ytDNLr2PFRRLaOqgos6dd7UGOp9z6axiMQPNvcDrtx%2BAHPJZecIgS%2FPDRHmflgiDIPO7MaX2Ugk%2F2O6e3sav0ifq6Yy5CJzMZqedXIxupBDW7Ss%2FjBRDG%2B6ZFuXZwi3Cgr3RQr3jjVlNTyJS1KCIPIEBfgQ6jdF3IoFX6GicetKKitV0A4G4Et5ibW7DqQUEzPlz7xKxWCp48ozqJObZTkfXVjvDzASggDocOBdDjKvkaqLMOadMislFhjT%2B3t6GwLFa6%2Fk8omufV%2B9vekMFvH%2BmpJUnHpEEGv6YxTAI1xtPiq5ert5vhfL3%2Fb%2F5sRB4PH9qKreY1l56ziRDatgwPA%2BzNIQl5Ev1y7OpI8jC7tljFMNDnWKOMFgMQ%2B1j50xYfxWatP1SVAmsRHW3dmt6AIDlK9yrnz6hYtoGRGfHguKz6lEQVPf2gM2UqDwjWq37GWJfWGbClOAhfbjF2AdX9WKyoaudjG4588DyhvgK4mcyJ9zFxW0l5oTizjSSdVWPuVCaHotXYXoc5%2F5xaoID6VZhf6Yhy843bqufnnLQAEwB4GWkFFebfy449kvM0tQqPohmXuVRJHDDlA%2BVp6z5vQa2ZSWUQrZ6ChTX63XQ5Pg6onqFJHV4ICda%2F8qkF43rWLEEy8bvn2FHWJF01JvzQhAa5BbBMHv3XVwVeiFcNrZ4NdRGRhXoJOP38wfuc7MuUscy4Eok1MkQoIcm%2BUToRiR%2B60HVzn2WqQ5FEP%2B4AegSMw4Jn9xQY6sgHskRng%2Fhdn23dgw5eoCLzM5jmWC1rOCbQjEN0mtISdHwx2IjX%2B5NqHWYJiqopW1TVLgYNyCyE74%2BPG%2BkwO9uA5kNSSRqOCQA38yLRo8WIlsfla8Zd%2FURIr1iEHkx8QqjTJoLALSTm0vGrbFs4aNUb2J%2FzwWVOnbUvE%2BG%2Fy3cqzy3DDl0TsKqQ3hGsqA0O6zQikOjHUJ2KQ2dB6oZOZvbw9YQNP2Ae0Siv%2Fmu4f1pdMl1FL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250908T215854Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYWLINZSJW%2F20250908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cf70670dfde69ce595bb5db274fb3facdbdf95525e51201cb2438f2d075cdf23&hash=fcf99a7082f0c5fad2fc2d7ddb1456396f99cda7875cf94e79ff1fc24078279e&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1566253525007079&tid=spdf-fcc0ddcf-9d4e-414c-b775-c72943a29331&sid=195fab9f172e154a912b94736026a9bb8568gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=190e575104560455005f&rr=97c1b5c0aa81a305&cc=ca) *Information Fusion*.
+ - [Error adjustment based on spatiotemporal correlation fusion for traffic forecasting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) *IEEE Transactions on Intelligent Transportation Systems*.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+ ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Autocorrelated Error Ajustment for Traffic Forecasting
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+####
