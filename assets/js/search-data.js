@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-services",
           title: "Services",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/service/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -61,9 +61,9 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-more-accurate-forecasting",
+          title: 'More Accurate Forecasting',
+          description: "Two model-agnostic solutions to improve deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{
