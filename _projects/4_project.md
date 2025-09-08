@@ -1,6 +1,6 @@
 ---
 layout: page
-title: More Accurate Forecasting
+title: More Accurate
 description: Two model-agnostic solutions to improve deep learning–based traffic forecasting.
 img:
 importance: 3
@@ -9,8 +9,8 @@ category: Resilient ITS
 
 This project explores model-agnostic approaches for enhancing the performance of deep learning–based traffic forecasting, which is composed of two publications:
 
- - [Error adjustment based on spatiotemporal correlation fusion for traffic forecasting](https://pdf.sciencedirectassets.com/272144/1-s2.0-S1566253525X00117/1-s2.0-S1566253525007079/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF4aCXVzLWVhc3QtMSJGMEQCICz0RiV%2BkpKvXkf%2FPIYYSyiPg8JfcRM1he0ujIGbXcMVAiBe%2F7jIynGvv%2BoKzKNxJ9p9hHzqn7d8WBnQe5%2B1T6E4Yyq8BQjH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMh%2FlB2mxWnWYmtR69KpAFy42QC49AJ0n4xtx2%2BwZ1ezBB2EOr%2BlYXhW2ZbY0G6OHF17NwIhAwXu5vr%2Bi%2FvkKwXvZhyO4L0gLHhJGwO6W%2B7tWW5RyuVg8vSj6WHLG1DsVKXf0jV%2FswmUfQKJXch9ytDNLr2PFRRLaOqgos6dd7UGOp9z6axiMQPNvcDrtx%2BAHPJZecIgS%2FPDRHmflgiDIPO7MaX2Ugk%2F2O6e3sav0ifq6Yy5CJzMZqedXIxupBDW7Ss%2FjBRDG%2B6ZFuXZwi3Cgr3RQr3jjVlNTyJS1KCIPIEBfgQ6jdF3IoFX6GicetKKitV0A4G4Et5ibW7DqQUEzPlz7xKxWCp48ozqJObZTkfXVjvDzASggDocOBdDjKvkaqLMOadMislFhjT%2B3t6GwLFa6%2Fk8omufV%2B9vekMFvH%2BmpJUnHpEEGv6YxTAI1xtPiq5ert5vhfL3%2Fb%2F5sRB4PH9qKreY1l56ziRDatgwPA%2BzNIQl5Ev1y7OpI8jC7tljFMNDnWKOMFgMQ%2B1j50xYfxWatP1SVAmsRHW3dmt6AIDlK9yrnz6hYtoGRGfHguKz6lEQVPf2gM2UqDwjWq37GWJfWGbClOAhfbjF2AdX9WKyoaudjG4588DyhvgK4mcyJ9zFxW0l5oTizjSSdVWPuVCaHotXYXoc5%2F5xaoID6VZhf6Yhy843bqufnnLQAEwB4GWkFFebfy449kvM0tQqPohmXuVRJHDDlA%2BVp6z5vQa2ZSWUQrZ6ChTX63XQ5Pg6onqFJHV4ICda%2F8qkF43rWLEEy8bvn2FHWJF01JvzQhAa5BbBMHv3XVwVeiFcNrZ4NdRGRhXoJOP38wfuc7MuUscy4Eok1MkQoIcm%2BUToRiR%2B60HVzn2WqQ5FEP%2B4AegSMw4Jn9xQY6sgHskRng%2Fhdn23dgw5eoCLzM5jmWC1rOCbQjEN0mtISdHwx2IjX%2B5NqHWYJiqopW1TVLgYNyCyE74%2BPG%2BkwO9uA5kNSSRqOCQA38yLRo8WIlsfla8Zd%2FURIr1iEHkx8QqjTJoLALSTm0vGrbFs4aNUb2J%2FzwWVOnbUvE%2BG%2Fy3cqzy3DDl0TsKqQ3hGsqA0O6zQikOjHUJ2KQ2dB6oZOZvbw9YQNP2Ae0Siv%2Fmu4f1pdMl1FL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250908T215854Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYWLINZSJW%2F20250908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cf70670dfde69ce595bb5db274fb3facdbdf95525e51201cb2438f2d075cdf23&hash=fcf99a7082f0c5fad2fc2d7ddb1456396f99cda7875cf94e79ff1fc24078279e&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1566253525007079&tid=spdf-fcc0ddcf-9d4e-414c-b775-c72943a29331&sid=195fab9f172e154a912b94736026a9bb8568gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=190e575104560455005f&rr=97c1b5c0aa81a305&cc=ca) *Information Fusion*.
- - [A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) *IEEE Transactions on Intelligent Transportation Systems*.
+ - [Error adjustment based on spatiotemporal correlation fusion for traffic forecasting](https://www.sciencedirect.com/science/article/pii/S1566253525007079?ref=pdf_download&fr=RR-2&rr=97c1e150dae4a266) *Information Fusion*.
+ - [A universal framework of spatiotemporal bias block for long-term traffic forecasting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) *IEEE Transactions on Intelligent Transportation Systems*.
 
  ---
 
