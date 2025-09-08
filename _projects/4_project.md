@@ -38,7 +38,7 @@ Mean squared error (MSE) estimation is frequently misapplied during the training
 
  MSE is simple, computationally efficient, and widely used in practice. In standard regression tasks, where training samples are typically assumed to be randomly drawn from a distribution, the i.i.d. assumption holds reasonably well.
 
- - Existing time series forecasting studies adopt this same regression-based training paradigm, implicitly relying on the i.i.d. error assumption. However, [Sun, et al.](https://openreview.net/pdf?id=tJ_CO8orSI) was among the first to question this assumption in univariate forecasting, showing that autocorrelated errors in the temporal dimension can negatively affect forecasting performance. Our work builds upon this insight and extends the discussion to the multivariate case, where spatial and temporal correlations in errors are even more prominent. 
+ - Existing time series forecasting studies adopt this same regression-based training paradigm, implicitly relying on the i.i.d. error assumption. However, [Adjusting for Autocorrelated Errors in Neural Networks for Time Series](https://openreview.net/pdf?id=tJ_CO8orSI) was among the first to question this assumption in univariate forecasting, showing that autocorrelated errors in the temporal dimension can negatively affect forecasting performance. Our work builds upon this insight and extends the discussion to the multivariate case, where spatial and temporal correlations in errors are even more prominent. 
  
 #### **Model the forecasting errors as Vector Autoregressive (VAR) rather than i.i.d.**
 
