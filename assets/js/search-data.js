@@ -61,8 +61,8 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-more-accurate",
-          title: 'More Accurate',
+            },},{id: "projects-more-accurate-its",
+          title: 'More Accurate ITS',
           description: "Two model-agnostic solutions to improve deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
