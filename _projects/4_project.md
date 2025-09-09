@@ -33,7 +33,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  - When the errors are assumed to be independent and identically distributed (i.i.d.), the variance term $\sigma^2$ becomes constant. In this case, maximizing the likelihood is equivalent to minimizing the *mean squared error (MSE)*, which simplifies the training objective:
 
  $$
- \mathcal{L}_{\text{MLE}} \propto \sum_{i=1}^n \left( y_i - f(x_i) \right)^2 = \| y - f(x) \|_2^2.
+ \mathcal{L}_{\text{MLE}} \propto \mathcal{L}_{\text{MSE}}=\sum_{i=1}^n \left( y_i - f(x_i) \right)^2 = \| y - f(x) \|_2^2.
  $$
 
  - MSE is simple, computationally efficient, and widely used in practice. In standard regression tasks, where training samples are typically assumed to be randomly drawn from a distribution, the i.i.d. assumption holds reasonably well.
