@@ -51,21 +51,16 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-glad-to-be-chosen-as-the-best-reviewer-award-in-aistats-25-see",
           title: 'I was glad to be chosen as the best reviewer award in AISTATS’25....',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-attack-llms",
+          title: 'Attack LLMs',
+          description: "Three distinct black-box adversarial attacks that expose the vulnerability of LLMs in time series forecasting under marginal perturbations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-more-accurate-its",
           title: 'More Accurate ITS',
           description: "Two model-agnostic solutions to improve deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/2_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
