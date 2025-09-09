@@ -44,7 +44,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 
 ***Model forecasting errors as a Vector Autoregressive (VAR) process instead of the i.i.d. assumption.***
 
- - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. Supposing $\mathcal{G}_t$ denotes the future value at time step $t$, and $f$ is a forecasting model from historical inputs from $\mathcal{G}_{t-H}$ to $\mathcal{G}_{t-1}$, a one-step-ahead traffic forecasting model is typically formulated as:
+ - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. A one-step-ahead traffic forecasting model is typically formulated as:
 
  $$
  \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \epsilon_t. \tag{1-3}
@@ -91,6 +91,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  $$
 
  - Now, minimizing the independent Gaussian error, $\epsilon_t$, in Eq.(1-9), the final cost function used for training is updated as:
+
  $$
  loss = \left\| \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} - f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},\ldots,;\theta \right) \right\|_2 + \alpha \cdot\mathcal{R}. \tag{1-10}
  $$
@@ -99,7 +100,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/error_adjust.png" title="Error Adjustment" class="img-fluid rounded z-depth-1" style="max-width:600px;" %}
+        {% include figure.liquid loading="eager" path="assets/img/error_adjust.png" title="Error Adjustment" class="img-fluid rounded z-depth-1" style="max-width:400px;" %}
     </div>
 </div>
 <div class="caption">
