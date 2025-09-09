@@ -2,7 +2,7 @@
 layout: page
 title: Attack LLMs
 description: Three distinct black-box adversarial attacks that expose the vulnerability of LLMs in time series forecasting under marginal perturbations.
-img: assets/img/12.jpg
+img: 
 importance: 1
 category: work
 related_publications: true
