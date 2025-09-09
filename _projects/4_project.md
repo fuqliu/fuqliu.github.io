@@ -26,14 +26,14 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  $$ 
  \mathcal{L}_{\text{MLE}} = -\sum_{i=1}^n \log p(y_i \mid x_i; f) 
  = \frac{1}{2\sigma^2} \sum_{i=1}^n \left( y_i - f(x_i) \right)^2 
- + \frac{n}{2} \log(2\pi\sigma^2).
+ + \frac{n}{2} \log(2\pi\sigma^2). \tag{1-1}
  $$
 
 
  - When the errors are assumed to be independent and identically distributed (i.i.d.), the variance term $\sigma^2$ becomes constant. In this case, maximizing the likelihood is equivalent to minimizing the *mean squared error (MSE)*, which simplifies the training objective:
 
  $$
- \mathcal{L}_{\text{MLE}} \sim \mathcal{L}_{\text{MSE}}=\sum_{i=1}^n \left( y_i - f(x_i) \right)^2 = \| y - f(x) \|_2^2.
+ \mathcal{L}_{\text{MLE}} \sim \mathcal{L}_{\text{MSE}}=\sum_{i=1}^n \left( y_i - f(x_i) \right)^2 = \| y - f(x) \|_2^2. \tag{1-2}
  $$
 
  - MSE is simple, computationally efficient, and widely used in practice. In standard regression tasks, where training samples are typically assumed to be randomly drawn from a distribution, the i.i.d. assumption holds reasonably well.
@@ -43,6 +43,8 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 #### **Solutions**
 
 By modeling forecasting errors with a Vector Autoregressive (VAR) process instead of the i.i.d. assumption, we derive an adjusted loss function that explicitly incorporates spatiotemporal correlations. Specifically,
+
+*Model forecasting errors as a Vector Autoregressive (VAR) process instead of the i.i.d. assumption.*
 
  - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. A one-step-ahead traffic forecasting model is typically formulated as:
 
