@@ -42,29 +42,29 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  
 #### **Solutions**
 
-By modeling forecasting errors with a Vector Autoregressive (VAR) process instead of the i.i.d. assumption, we derive an adjusted loss function that explicitly incorporates spatiotemporal correlations. Specifically,
+***Model forecasting errors as a Vector Autoregressive (VAR) process instead of the i.i.d. assumption.***
 
-*Model forecasting errors as a Vector Autoregressive (VAR) process instead of the i.i.d. assumption.*
-
- - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. A one-step-ahead traffic forecasting model is typically formulated as:
+ - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. Supposing $\mathcal{G}_t$ denotes the future value at time step $t$ and $f$ is a forecasting model from historical inputs from $\mathcal{G}_{t-H}$ to $\mathcal{G}_{t-1}$, a one-step-ahead traffic forecasting model is typically formulated as:
 
  $$
- \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \epsilon_t.
+ \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \epsilon_t. \tag{1-3}
  $$
 
  - The model is often trained by minimizing the loss functions $\text{MSE}  \sim \sum\nolimits_t{\|\epsilon_t\|_2}$ and $\text{MAE} \sim \sum\nolimits_t{\|\epsilon_t\|_1}$, which correspond to independent Gaussian and independent Laplacian noise assumptions, respectively. 
 
- - To account for spatiotemporal autocorrelation, we redefine the error term $\epsilon_t$ as $\eta_t$:
+ - The independent noise assumption does not hold in real-world traffic forecasting, to account for spatiotemporal autocorrelation, we redefine the error term $\epsilon_t$ as $\eta_t$:
 
  $$
- \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \eta_t.
+ \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \eta_t. \tag{1-4}
  $$
 
- - Supposing $\epsilon_{t} \sim N(\boldsymbol{0},\Sigma)$ is a Gaussian white noise process, and $\Phi_{1},...,\Phi_{p}$ are coefficient matrices of size $N\times N$, $\eta_t$ follows a vector autoregressive process VAR($p$):
+ - In Eq.\ref{1-4}, $\epsilon_{t} \sim N(\boldsymbol{0},\Sigma)$ is a Gaussian white noise process, and $\Phi_{1},...,\Phi_{p}$ are coefficient matrices of size $N\times N$. We define $\eta_t$ to follow a vector autoregressive process VAR($p$):
 
  $$
- \eta_t = \Phi_{1}\eta_{t-1} + \dots + \Phi_{p}\eta_{t-p} + \epsilon_{t}.
+ \eta_t = \Phi_{1}\eta_{t-1} + \dots + \Phi_{p}\eta_{t-p} + \epsilon_{t}. \tag{1-5}
  $$
+
+***Redesign the loss function that explicitly incorporates spatiotemporal correlations.***
 
  - To adjust for autocorrelated errors, we employ a VAR(1) model in DNN-based traffic forecasting. By combining the above two equations, the updated traffic forecasting model is formulated as:
 
@@ -89,5 +89,11 @@ By modeling forecasting errors with a Vector Autoregressive (VAR) process instea
  $$
  \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} = f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},...,\mathcal{G}_{t-H}- \Phi\mathcal{G}_{t-H-1};\theta \right) + \epsilon_t.
  $$
+
+ - The final cost function used for training is:
+ $$
+ loss = \left\| \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} - f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},\ldots,;\theta \right) \right\|_2 + \alpha \cdot\mathcal{R},
+ $$
+ where $\alpha>0$ is a penalty coefficient. Training with the new cost function, we can directly learn both the model parameter and the coefficient matrix. 
 
 ---
