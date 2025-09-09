@@ -15,7 +15,7 @@ This project explores model-agnostic approaches for enhancing the performance of
 
 ---
 
-### 1. Spatiotemporally Autocorrelated Error Ajustment for Traffic Forecasting
+### 1. Autocorrelated Error Adjustment for Traffic Forecasting
 
 #### **Research gap**
 Mean squared error (MSE) estimation is frequently misapplied in the training of deep learning–based numerical forecasting models. Specifically,
