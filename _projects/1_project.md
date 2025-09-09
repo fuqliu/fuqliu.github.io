@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Attack LLMs
+description: Three distinct black-box adversarial attacks that expose the vulnerability of LLMs in time series forecasting under marginal perturbations.
 img: assets/img/12.jpg
 importance: 1
 category: work
