@@ -44,7 +44,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 
 ***Model forecasting errors as a Vector Autoregressive (VAR) process instead of the i.i.d. assumption.***
 
- - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. Supposing $\mathcal{G}_{t}$ denotes the future value at time step $t$, and $f$ is a forecasting model from historical inputs from $\mathcal{G}_{t-H}$ to $\mathcal{G}_{t-1}$, a one-step-ahead traffic forecasting model is typically formulated as:
+ - Supposing $\epsilon_t$ represents the prediction error, traditional forecasting methods assume prediction errors are independent and identically distributed (i.i.d), typically $\epsilon_t \sim \mathcal{N}(\mathbf{0}, \Sigma)$. Supposing $\mathcal{G}_t$ denotes the future value at time step $t$, and $f$ is a forecasting model from historical inputs from $\mathcal{G}_{t-H}$ to $\mathcal{G}_{t-1}$, a one-step-ahead traffic forecasting model is typically formulated as:
 
  $$
  \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \epsilon_t. \tag{1-3}
@@ -58,7 +58,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \eta_t. \tag{1-4}
  $$
 
- - In Eq.\ref{1-4}, $\epsilon_{t} \sim N(\boldsymbol{0},\Sigma)$ is a Gaussian white noise process, and $\Phi_{1},...,\Phi_{p}$ are coefficient matrices of size $N\times N$. We define $\eta_t$ to follow a vector autoregressive process VAR($p$):
+ - In Eq.(1-4), $\epsilon_{t} \sim N(\boldsymbol{0},\Sigma)$ is a Gaussian white noise process, and $\Phi_{1},...,\Phi_{p}$ are coefficient matrices of size $N\times N$. We define $\eta_t$ to follow a vector autoregressive process VAR($p$):
 
  $$
  \eta_t = \Phi_{1}\eta_{t-1} + \dots + \Phi_{p}\eta_{t-p} + \epsilon_{t}. \tag{1-5}
@@ -66,7 +66,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 
 ***Redesign the loss function that explicitly incorporates spatiotemporal correlations.***
 
- - To adjust for autocorrelated errors, we employ a VAR(1) model in DNN-based traffic forecasting. By combining Eq.\ref{1-4} and Eq.\ref{1-5}, the updated traffic forecasting model is formulated as:
+ - To adjust for autocorrelated errors, we employ a VAR(1) model in DNN-based traffic forecasting. By combining Eq.(1-4) and Eq.(1-5), the updated traffic forecasting model is formulated as:
 
  $$
  \mathcal{G}_{t} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) + \Phi\eta_{t-1}+\epsilon_{t}. \tag{1-6}
@@ -78,28 +78,28 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  \eta_{t-1}=\mathcal{G}_{t-1}-f\left(\mathcal{G}_{t-2},...,\mathcal{G}_{t-H-1};\theta \right). \tag{1-7}    
  $$
 
- - Combining Eq.\ref{1-6} and Eq.\ref{1-7}, we reformulate the traffic forecasting model as:
+ - Combining Eq.(1-6) and Eq.(1-7), we reformulate the traffic forecasting model as:
 
  $$
  \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} = f\left(\mathcal{G}_{t-1},...,\mathcal{G}_{t-H};\theta \right) - \Phi f\left(\mathcal{G}_{t-2},...,\mathcal{G}_{t-H-1};\theta \right) + \epsilon_t. \tag{1-8}
  $$
 
- - This new formulation accounts for autocorrelated errors, but its complexity poses challenges in direct estimation. To simplify, we approximate the right-hand side of Eq.\ref{1-8} as:
+ - This new formulation accounts for autocorrelated errors, but its complexity poses challenges in direct estimation. To simplify, we approximate the right-hand side of Eq.(1-8) as:
 
  $$
- \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} = f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},...,\mathcal{G}_{t-H}- \Phi\mathcal{G}_{t-H-1};\theta \right) + \epsilon_t. \ref{1-9}
+ \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} = f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},...,\mathcal{G}_{t-H}- \Phi\mathcal{G}_{t-H-1};\theta \right) + \epsilon_t. \tag{1-9}
  $$
 
- - Now, minimizing the independent Gaussian error, $\epsilon_t$, in Eq.\ref{1-9}, the final cost function used for training is updated as:
+ - Now, minimizing the independent Gaussian error, $\epsilon_t$, in Eq.(1-9), the final cost function used for training is updated as:
  $$
- loss = \left\| \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} - f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},\ldots,;\theta \right) \right\|_2 + \alpha \cdot\mathcal{R}. \ref{1-10}
+ loss = \left\| \mathcal{G}_{t} - \Phi\mathcal{G}_{t-1} - f\left(\mathcal{G}_{t-1}- \Phi\mathcal{G}_{t-2},\ldots,;\theta \right) \right\|_2 + \alpha \cdot\mathcal{R}. \tag{1-10}
  $$
  
  - Training with the new cost function, we can directly learn both the model parameter and the coefficient matrix. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/error_adjust.png" title="Error Adjustment" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/error_adjust.png" title="Error Adjustment" class="img-fluid rounded z-depth-1" style="max-width:600px;" %}
     </div>
 </div>
 <div class="caption">
