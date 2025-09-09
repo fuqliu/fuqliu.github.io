@@ -98,7 +98,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
  
  - Training with the new cost function, we can directly learn both the model parameter and the coefficient matrix. 
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/error_adjust.jpg" title="Error Adjustment" class="img-fluid rounded z-depth-1" %}
     </div>
