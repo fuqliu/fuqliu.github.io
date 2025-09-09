@@ -1,8 +1,8 @@
 ---
 layout: page
-title: More Accurate
+title: More Accurate ITS
 description: Two model-agnostic solutions to improve deep learning–based traffic forecasting.
-img:
+img: assets/img/ITS.jpg
 importance: 3
 category: Resilient ITS
 ---
@@ -100,7 +100,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/error_adjust.png" title="Error Adjustment" class="img-fluid rounded z-depth-1" style="max-width:400px;" %}
+        {% include figure.liquid loading="eager" path="assets/img/error_adjust.jpg" title="Error Adjustment" class="img-fluid rounded z-depth-1" style="max-width:400px;" %}
     </div>
 </div>
 <div class="caption">
