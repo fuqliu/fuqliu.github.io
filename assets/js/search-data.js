@@ -53,7 +53,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-attack-llms-in-ts",
           title: 'Attack LLMs in TS',
-          description: "To expose the vulnerability of LLMs in time series forecasting by three distinct black-box adversarial attacks.",
+          description: "To expose the vulnerabilities of LLMs in time series forecasting by three distinct black-box adversarial attacks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-more-accurate-its",
