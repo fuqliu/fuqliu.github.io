@@ -7,11 +7,13 @@ importance: 1
 category: Trustworthy LLMs
 ---
 
+(To be continued)
 ---
 This project aims to fully understand the vulnerabilities of LLMs in time series forecasting and is composed of three papers:
 
  - [Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting](https://fuqliu.github.io/attack-llm4ts/) *AISTATS 2025*.
  - [Temporally Sparse Attack for Fooling Large Language Models in Time Series Forecasting](https://openreview.net/pdf?id=oL806RzbDi) *Building Trust in Language Models and Applications Workshop at ICLR 2025*.
+
 ---
 
 ### 1. Black-box attack against LLMs in time series forecasting.
