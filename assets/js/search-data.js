@@ -51,8 +51,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-glad-to-be-chosen-as-the-best-reviewer-award-in-aistats-25-see",
           title: 'I was glad to be chosen as the best reviewer award in AISTATS’25....',
           description: "",
-          section: "News",},{id: "projects-attack-llms-in-ts",
-          title: 'Attack LLMs in TS',
+          section: "News",},{id: "projects-manipulate-llms-in-ts",
+          title: 'Manipulate LLMs in TS',
           description: "To expose the vulnerabilities of LLMs in time series forecasting by three distinct black-box adversarial attacks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
