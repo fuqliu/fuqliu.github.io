@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of projects to identify the adversarial risks in practical AI models and to build reliable intelligent systems. 
 nav: true
 nav_order: 3
-display_categories: [Trustworthy LLMs, Resilient ITS]
+display_categories: [Trustworthy AI]
 horizontal: false
 ---
 

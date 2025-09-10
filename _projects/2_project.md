@@ -4,7 +4,7 @@ title: More Accurate ITS
 description: Two model-agnostic solutions to improve deep learning–based traffic forecasting.
 img: assets/img/ITS.jpg
 importance: 2
-category: Resilient ITS
+category: Trustworthy AI
 ---
 
 ---
