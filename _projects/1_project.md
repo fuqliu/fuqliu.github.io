@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 ---
-This project targets fully understanding of vulnerabilities of LLMs in time series forecasting, which is composed by three papers:
+This project aims to fully understand the vulnerabilities of LLMs in time series forecasting and is composed of three papers:
 
  - [Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting](https://fuqliu.github.io/attack-llm4ts/) *AISTATS 2025*.
  - [Temporally Sparse Attack for Fooling Large Language Models in Time Series Forecasting](https://openreview.net/pdf?id=oL806RzbDi) *Building Trust in Language Models and Applications Workshop at ICLR 2025*.
