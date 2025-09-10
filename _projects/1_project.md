@@ -5,7 +5,6 @@ description: To expose the vulnerabilities of LLMs in time series forecasting by
 img: assets/img/Trustworthy_AI.jpg
 importance: 1
 category: Trustworthy LLMs
-related_publications: true
 ---
 
 ---
@@ -18,7 +17,7 @@ This project aims to fully understand the vulnerabilities of LLMs in time series
 ### 1. Black-box attack against LLMs in time series forecasting.
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Attack1.jpg" title="Attack LLMs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
