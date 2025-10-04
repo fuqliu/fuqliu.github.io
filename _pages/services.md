@@ -11,7 +11,7 @@ nav_order: 4
 Reviewer/Program Committee (AI Conference)
  - [NeurIPS](https://neurips.cc/) 2022 2023 2024 2025
  - [ICML](https://icml.cc/) 2022 2023 2024
- - [ICLR](https://iclr.cc/) 2024
+ - [ICLR](https://iclr.cc/) 2024 2026
  - [AISTATS](https://aistats.org/) 2025 2026
  - [COLM](https://colmweb.org/) 2025
  - [IJCAI](https://www.ijcai.org/) 2023 2024
