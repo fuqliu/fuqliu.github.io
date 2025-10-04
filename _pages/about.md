@@ -30,15 +30,11 @@ I am Fuqiang, an about-to-graduate Ph.D. at [McGill University](https://www.mcgi
 My research focuses on **AI safety**, specifically, to identify the potential risks hidden in powerful AI models and construct resilient solutions for practical intelligent systems. Ongoing research directions are:
 
 ##### 1. Potential Risks in LLMs for Time Series Forecasting
-
  - [Adversarial attacks against LLM in time series forecasting.](https://fuqliu.github.io/attack-llm4ts/)
-
  - [Temporally sparse attacks against LLM in time series forecasting.](https://openreview.net/pdf?id=oL806RzbDi) 
 
 ##### 2. Resilient Intelligent Transportion System (ITS)
-
  - [Model-agnostic solutions for more accurate ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430)
-
  - [Model-agnostic solutions for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
 
 Prior to my doctorate, I earned two Master of Science (MSc) degrees——one in Communication Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and another in Electrical and Computer Engineering from [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
