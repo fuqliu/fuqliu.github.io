@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 ---
-My research focuses on **AI safety**, specifically on identifying the potential risks hidden in powerful AI systems and developing resilient solutions for practical intelligent applications. Ongoing research direction is:
+My research focuses on **AI safety**, specifically, to identify the potential risks hidden in powerful AI systems and develop resilient solutions for practical intelligent applications. Ongoing research direction is:
 
 ###### 1. *Empirical Proof of Frontier AI’s Intentional Misleading*
 This project aims to provide quantitative evidence that frontier AI systems can intentionally generate information in ways that mislead users. 
