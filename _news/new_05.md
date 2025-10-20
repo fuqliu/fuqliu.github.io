@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was glad to be selected as a NeurIPS'25 "Top Reviewer" and awarded a complimentary registration. Thanks NeurIPS'25 Program Committee.
+I was glad to be selected as a NeurIPS 2025 "Top Reviewer" and awarded a complimentary registration.
