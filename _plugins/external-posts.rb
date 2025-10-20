@@ -4,6 +4,10 @@ require 'jekyll'
 require 'nokogiri'
 require 'time'
 
+# at top of _plugins/external-posts.rb
+Jekyll.logger.warn "external-posts", "DISABLED for now"
+return
+
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
     safe true
