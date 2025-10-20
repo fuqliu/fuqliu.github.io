@@ -27,11 +27,13 @@ latest_posts:
 ---
 My research focuses on **AI safety**, specifically, to identify the potential risks hidden in powerful AI systems and construct resilient solutions for practical intelligent systems. Ongoing research directions are:
 
-##### 1. Potential Risks in LLMs for Time Series Forecasting
+##### 1. Empirical Proof of Frontier AI’s Intentional Misleading
+
+##### 2. Potential Risks in LLMs for Time Series Forecasting
  - [Adversarial attacks against LLM in time series forecasting.](https://fuqliu.github.io/attack-llm4ts/)
  - [Temporally sparse attacks against LLM in time series forecasting.](https://openreview.net/pdf?id=oL806RzbDi) 
 
-##### 2. Resilient Intelligent Transportion System (ITS)
+##### 3. Resilient Intelligent Transportion System (ITS)
  - [Model-agnostic solutions for more accurate ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430)
  - [Model-agnostic solutions for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
 
