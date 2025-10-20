@@ -37,7 +37,7 @@ Completed research projects are:
  - [Temporally sparse attacks against LLM in time series forecasting.](https://openreview.net/pdf?id=oL806RzbDi) 
 
 ###### 3. *Resilient Intelligent Transportion System (ITS)*
-[\[TITS'22\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) [\[TNNLS'23\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359) [\[INFFUS'25\]](https://www.sciencedirect.com/science/article/pii/S1566253525007079)
+[\[TITS'22\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) [\[TNNLS'23\]](https://ieeexplore.ieee.org/document/10068359) [\[INFFUS'25\]](https://www.sciencedirect.com/science/article/pii/S1566253525007079)
  - [Accumulated and autocorrelated error adjustment for more accurate ITS.](https://fuqliu.github.io/projects/2_project/)
  - [Adversarial danger identification for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
 
