@@ -33,13 +33,14 @@ This project aims to provide quantitative evidence that frontier AI systems can 
 Completed research projects are:
 
 ###### 2. *Potential Risks in LLMs for Time Series Forecasting*
- - [Adversarial attacks against LLM in time series forecasting.](https://fuqliu.github.io/attack-llm4ts/)
- - [Temporally sparse attacks against LLM in time series forecasting.](https://openreview.net/pdf?id=oL806RzbDi) 
+[\[AISTATS'25\]](https://proceedings.mlr.press/v258/liu25l.html)
+ - Adversarial attacks against LLM in time series forecasting [\(see\)](https://fuqliu.github.io/attack-llm4ts/).
+ - Temporally sparse attacks against LLM in time series forecasting [\(see\)](https://openreview.net/pdf?id=oL806RzbDi). 
 
 ###### 3. *Resilient Intelligent Transportion System (ITS)*
 [\[TITS'22\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) [\[TNNLS'23\]](https://ieeexplore.ieee.org/document/10068359) [\[INFFUS'25\]](https://www.sciencedirect.com/science/article/pii/S1566253525007079)
  - Accumulated and autocorrelated error adjustment for more accurate ITS [\(see\)](https://fuqliu.github.io/projects/2_project/).
- - [Adversarial danger identification for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
+ - Adversarial danger identification for more robust ITS [\(see\)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359).
 
 I graduated with my Ph.D. from [McGill University](https://www.mcgill.ca/), Canada, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Prior to my doctorate, I earned two Master of Science (MSc) degrees——one in Communication Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and another in Electrical and Computer Engineering from [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
 
