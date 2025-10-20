@@ -38,7 +38,7 @@ Completed research projects are:
 
 ###### 3. *Resilient Intelligent Transportion System (ITS)*
 [\[TITS'22\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) [\[TNNLS'23\]](https://ieeexplore.ieee.org/document/10068359) [\[INFFUS'25\]](https://www.sciencedirect.com/science/article/pii/S1566253525007079)
- - [Accumulated and autocorrelated error adjustment for more accurate ITS.](https://fuqliu.github.io/projects/2_project/)
+ - Accumulated and autocorrelated error adjustment for more accurate ITS [\(see\)](https://fuqliu.github.io/projects/2_project/).
  - [Adversarial danger identification for more robust ITS.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359)
 
 I graduated with my Ph.D. from [McGill University](https://www.mcgill.ca/), Canada, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Prior to my doctorate, I earned two Master of Science (MSc) degrees——one in Communication Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and another in Electrical and Computer Engineering from [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
