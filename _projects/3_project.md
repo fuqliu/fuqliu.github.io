@@ -107,15 +107,23 @@ $$
  - In Equation (1-7), $\beta$ denotes the bias factor to tune the scale of artificial errors and it is computed from the training dataset, which is shown as:
 
 $$
-\beta = {\rm mean} \{f(\mathcal{G}^{t-(M-1):t}+\rho)-\mathcal{G}^t\}. 
+\beta = {\rm mean} \{f(\mathcal{G}^{t-(M-1):t}+\rho)-\mathcal{G}^t\}. \tag{1-8}    
 $$
 
  - The computed ratio represents the degree of errors that perturbations can cause. A larger ratio means perturbations can cause greater damage to the forecasting model if it is fed into the specific variate. Variates with the computed ratio greater than the threshold, $\bar{\delta}$, are regarded as vulnerable. The threshold is computed as:
 
 $$
-\bar{\delta} = \min\{\frac{\partial \|f(\mathcal{G}^{t-(M-1):t})-l^{t}\|_2}{\partial x_n^t}\}.
+\bar{\delta} = \min\{\frac{\partial \|f(\mathcal{G}^{t-(M-1):t})-l^{t}\|_2}{\partial x_n^t}\}. \tag{1-9}    
 $$
 
 ***Scatter Filter.***
+
+The scatter filter is used to replace the possible perturbations with dispersion errors. The key idea is that the dispersion errors can lead to less prediction accuracy drop compared with well-designed adversarial perturbations. 
+
+Supposing that $x$ denotes the input to the scatter filter, $\[*\]$ denotes the normal rounding operation, and $k$ denotes the factor to tune the scale of input, the scatter filter, $\Phi(*)$, is designed as
+
+$$
+\Phi(x)=[k \cdot x]. \tag{1-10}    
+$$
 
 ---
