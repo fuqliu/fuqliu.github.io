@@ -4,7 +4,7 @@ title: Attack LLMs in TS
 description: To expose the vulnerabilities of LLMs in time series forecasting by three distinct black-box adversarial attacks.
 img: assets/img/Trustworthy_AI.jpg
 importance: 1
-category: Trustworthy AI
+category: Trustworthy LLM4TS
 ---
 
 (To be continued)
