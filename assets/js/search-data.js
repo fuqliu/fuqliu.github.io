@@ -64,12 +64,12 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-more-accurate-its",
           title: 'More Accurate ITS',
-          description: "Two model-agnostic solutions to improve deep learning–based traffic forecasting.",
+          description: "Two model-agnostic solutions to enhance deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-more-robust-its",
           title: 'More Robust ITS',
-          description: "Adversarial attack and defense against deep learning–based traffic forecasting.",
+          description: "Adversarial attacks and defenses against deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
