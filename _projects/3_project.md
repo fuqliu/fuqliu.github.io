@@ -8,7 +8,7 @@ category: Resilient ITS
 ---
 
 ---
-This project explores adversarial vulnerabilities of deep learning–based traffic forecasting, and the effective mitigation strategies. This project is composed of the following publications:
+This project explores adversarial vulnerabilities of deep learning–based traffic forecasting and the effective mitigation strategies, which is composed of the following publications:
 
  - [Adversarial Danger Identification on Temporally Dynamic Graphs](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) *IEEE Transactions on Neural Networks and Learning Systems*.
 
