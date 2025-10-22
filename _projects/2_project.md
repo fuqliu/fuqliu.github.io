@@ -107,7 +107,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
     The framework of the proposed <u>S</u>patiotemporally <u>A</u>utocorrelated <u>E</u>rror <u>A</u>djustment. 
 </div>
 
-### 2. Accumulated Error Adjustment and Long-Term Forecasting Enhancement
+### 2. Accumulated Error Adjustment for Long-Term Forecasting
 
 #### **Research gap**
 There are two general two approaches for multi-step traffic forecasting, namely: iterative multi-step forecasting and sequence-to-sequence (seq2seq) based forecasting. However, these two approaches have some major limitations, especially when it comes to long-term traffic forecasting (over 30 min in lead time). 
@@ -140,5 +140,11 @@ Supposing $f$ denotes the well-trained base model parameterized by $\Phi$ and $\
 $$
 \{\mathcal{G}^{*}_{t+T},...\mathcal{G}^{*}_{t+1}\}= f(\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\},\Phi)+\mathbb{B}. \tag{2-1}
 $$
+
+Supposing $f^{'}$ denotes the bias block neural networks parameterized by $\Phi^{'}$, the bias sequence, $\mathbb{B}$, is computed as:
+
+$$
+\mathbb{B}=\{\mathcal{B}_{t+T},...,\mathcal{B}_{t+1}\}=f^{'}(\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\},\Phi^{'}). \tag{2-2}
+$$ 
 
 ---
