@@ -107,22 +107,24 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
     The framework of the proposed <u>S</u>patiotemporally <u>A</u>utocorrelated <u>E</u>rror <u>A</u>djustment. 
 </div>
 
-### 2. A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting
+### 2. Accumulated Error Adjustment and Long-Term Forecasting Enhancement
 
 #### **Research gap**
 There are two general two approaches for multi-step traffic forecasting, namely: iterative multi-step forecasting and sequence-to-sequence (seq2seq) based forecasting. However, these two approaches have some major limitations, especially when it comes to long-term traffic forecasting (over 30 min in lead time). 
 
 - The central idea of iterative multi-step scheme is to iteratively feed the output of current prediction as an input into the subsequent prediction. 
+
 - However, the iterative use of previous results leads to accumulation of prediction errors throughout the whole process. Consequently, prediction errors of the said methods grow substantially with the length of prediction horizons. 
 
 - The seq2seq-based models directly produce sequences of multi-period predictions. 
+
 - Seq2seq models are typically computationally expensive to train, largely due to the convergence problems rooted in the high complexity of gradients computations when updating model parameters. 
 
 #### **Solution**
 
 ***Overall structure of the uniform framework.***
 
-To enhance the long-term prediction ability of current forecasting models, we introduce the overall framework followed by the residual connection between the base model and bias block. The base model is a well-trained exsiting deep-learning-based forecasting methods, and the bias block is learnable to correct the long-term prediction error of the base model and consequently improve the base model's long-term prediction performance. 
+To enhance the long-term prediction ability of current forecasting models, we introduce the overall framework followed by the residual connection between the base model and bias block. The base model is a well-trained exsiting deep-learning-based forecasting methods, and the bias block is learnable to correct the long-term prediction error of the base model.
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -133,7 +135,10 @@ To enhance the long-term prediction ability of current forecasting models, we in
     Enhance the long-term prediction ability by the spatiotemporal bias block. 
 </div>
 
+Supposing $f$ denotes the well-trained base model parameterized by $\Phi$ and $\mathbb{B}$ denotes the bias sequence, the universal framework integrates outputs of both the base model and bias block:
+
 $$
-\left\{ \mathcal{G}^{*}_{t+T},...\mathcal{G}^{*}_{t+1}\right\} = f\left(\left\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\right\},\Phi\right)+\mathbb{B},
+\{\mathcal{G}^{*}_{t+T},...\mathcal{G}^{*}_{t+1}\}= f(\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\},\Phi)+\mathbb{B}. \tag{2-1}
 $$
+
 ---
