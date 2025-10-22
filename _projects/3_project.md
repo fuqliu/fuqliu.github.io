@@ -50,11 +50,10 @@ We formulate identifying dangerous timestamps as a time series classification pr
  - Let $l^{',t}$ denote the label to the classifier in the $t$ timestamp, and these labels are computed as:
 
 $$
-l^{',t}=\{
-		\begin{aligned}
-		1, & \|f(\mathcal{G}^{t-(M-1):t}+\bm{\rho}) - l^t\|_1 > \lambda \cdot N\\ 
-		0, & \|f(\mathcal{G}^{t-(M-1):t}+\bm{\rho}) - l^t\|_1 \le\lambda \cdot N.
-	\end{aligned} \tag{1-1}
+l^{',t}=\begin{cases}
+		1, & \|f(\mathcal{G}^{t-(M-1):t}+\rho) - l^t\|_1 > \lambda \cdot N\\ 
+		0, & \|f(\mathcal{G}^{t-(M-1):t}+\rho) - l^t\|_1 \le\lambda \cdot N.
+	\end{cases} \tag{1-1}
 $$
 
  - The classifier is constructed with three graph-temporal modules and a 2D convolutional layer. Each graph-temporal module is composed of a graph convolution layer and a gate-based 1-D dilated convolutional layer. 
@@ -78,6 +77,12 @@ $$
 U=\Theta_{1}\star s'_{U}+\mathbf{b}\\
 V=\Theta_{2}\star s'_{V}+\mathbf{c}. \tag{1-4}    
 \end{cases}
+$$
+
+ - Identifying when is dangerous is formed as a time series classification problem. A hybrid GNN-based classifier is designed to identify whether a timeframe needs adversarial defenses. The proposed classifier, $\mathcal{C}$, parameterized by the coefficient set, $w$, is learned in the training dataset following:
+
+$$
+\mathop{\min_{\bm{w}}}=\left\|\mathcal{C}\left(\mathcal{G}^{t-(M-1):t},w\right)-l^{',t}\right\|_2. \tag{1-5}    
 $$
 
 ***Linear Error Propagation for Variate Identification.***
