@@ -153,4 +153,9 @@ $$
 \Phi^{'*}=\underset{\Phi^{'}}{\text{argmin}}\  O_{base}+f^{'}(\{\mathcal{G}_{t},...\mathcal{G}_{t-\left(H-1\right)}\},\Phi^{'})- L_{true}. \tag{2-3}
 $$
 
+***Bias Block --- Spatiotemporal Module.***
+
+The detailed structure of the bias block consists of three spatiotemporal modules, and an adjacency matrix generator used to provide the adjacency matrix to graph convolution operations. All three spatiotemporal modules share the same structure of a temporal layer and spatial layer. The *temporal layer* is composed of a dilated TCN with a gated mechanism. The output of the temporal layer is then fed into the *spatial layer*, which uses the graph convolution operation to capture the dynamic similarity between different vertices, and hidden/non-linear spatial patterns inside the traffic data.
+
+
 ---
