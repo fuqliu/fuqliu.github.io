@@ -112,13 +112,13 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 #### **Research gap**
 There are two general two approaches for multi-step traffic forecasting, namely: iterative multi-step forecasting and sequence-to-sequence (seq2seq) based forecasting. However, these two approaches have some major limitations, especially when it comes to long-term traffic forecasting (over 30 min in lead time). 
 
-- The central idea of iterative multi-step scheme is to iteratively feed the output of current prediction as an input into the subsequent prediction. 
+ - The central idea of iterative multi-step scheme is to iteratively feed the output of current prediction as an input into the subsequent prediction. 
 
-- However, the iterative use of previous results leads to accumulation of prediction errors throughout the whole process. Consequently, prediction errors of the said methods grow substantially with the length of prediction horizons. 
+ - However, the iterative use of previous results leads to accumulation of prediction errors throughout the whole process. Consequently, prediction errors of the said methods grow substantially with the length of prediction horizons. 
 
-- The seq2seq-based models directly produce sequences of multi-period predictions. 
+ - The seq2seq-based models directly produce sequences of multi-period predictions. 
 
-- Seq2seq models are typically computationally expensive to train, largely due to the convergence problems rooted in the high complexity of gradients computations when updating model parameters. 
+ - Seq2seq models are typically computationally expensive to train, largely due to the convergence problems rooted in the high complexity of gradients computations when updating model parameters. 
 
 #### **Solution**
 
