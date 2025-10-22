@@ -147,4 +147,10 @@ $$
 \mathbb{B}=\{\mathcal{B}_{t+T},...,\mathcal{B}_{t+1}\}=f^{'}(\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\},\Phi^{'}). \tag{2-2}
 $$ 
 
+Let $O_{base}$ denote the output of the base model and $L_{true}$ denote the ground truth in the training dataset. Parameters $\Phi$ of the base model are available since the base model is already well-trained. Thus, the framework only optimize $\Phi^{'*}$---neural network parameters for the bias block:
+
+$$
+\Phi^{'*}=\underset{\Phi^{'}}{\text{argmin}}\  O_{base}+f^{'}(\{\mathcal{G}_{t},...\mathcal{G}_{t-\left(H-1\right)}\},\Phi^{'})- L_{true}. \tag{2-3}
+$$
+
 ---
