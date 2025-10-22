@@ -30,7 +30,7 @@ My research focuses on **AI safety**, specifically, to identify the potential ri
 ###### 1. **Potential Risks in LLMs for Time Series Forecasting** 
  - Adversarial attacks against LLM in time series forecasting [\(see\)](https://fuqliu.github.io/attack-llm4ts/).  
  \[[AISTATS'25](https://proceedings.mlr.press/v258/liu25l.html)\]
- - Temporally sparse attacks against LLM in time series forecasting [\(see\)](https://openreview.net/pdf?id=oL806RzbDi). 
+ - Temporally sparse attacks against LLM in time series forecasting [\(see\)](https://openreview.net/pdf?id=oL806RzbDi).  
  \[[ICLR'25 BuildingTrust](https://openreview.net/pdf?id=oL806RzbDi)\]
 
 ###### 2. **Resilient Intelligent Transportion System (ITS)** 
