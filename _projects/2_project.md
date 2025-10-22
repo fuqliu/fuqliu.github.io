@@ -107,6 +107,7 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
     The framework of the proposed <u>S</u>patiotemporally <u>A</u>utocorrelated <u>E</u>rror <u>A</u>djustment. 
 </div>
 ---
+
 ### 2. A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting
 
 #### **Research gap**
