@@ -36,6 +36,7 @@ Completed research projects are:
  - Adversarial attacks against LLM in time series forecasting [\(see\)](https://fuqliu.github.io/attack-llm4ts/).  
  \[[AISTATS'25](https://proceedings.mlr.press/v258/liu25l.html)\]
  - Temporally sparse attacks against LLM in time series forecasting [\(see\)](https://openreview.net/pdf?id=oL806RzbDi). 
+ \[[ICLR'25 BuildingTrust](https://openreview.net/pdf?id=oL806RzbDi)\]
 
 ###### 3. **Resilient Intelligent Transportion System (ITS)** 
  - Accumulated and autocorrelated error adjustment for more accurate ITS [\(see\)](https://fuqliu.github.io/projects/2_project/).  
@@ -43,6 +44,7 @@ Completed research projects are:
  - Adversarial danger identification for more robust ITS [\(see\)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359).  
  \[[TNNLS'23](https://ieeexplore.ieee.org/document/10068359)\] 
 
+###### **Background**
 I graduated with my Ph.D. in Intelligient Transporation System (ITS) from [McGill University](https://www.mcgill.ca/), Canada, co-supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Prior to my doctorate, I earned two Master of Science (MSc) degrees in Electrical and Computer Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
 
 ---
