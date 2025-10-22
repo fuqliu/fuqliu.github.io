@@ -47,6 +47,39 @@ The timestamp identification is to identify when attacks on the forecasting mode
 
 We formulate identifying dangerous timestamps as a time series classification problem; a hybrid GNN-based classifier is designed to tackle the problem. The inputs to the classifier are those fed into the forecasting model; the outputs are labels indicating whether an adversarial attacker can severely fool the forecasting model for a specific frame. 
 
+ - Let $l^{',t}$ denote the label to the classifier in the $t$ timestamp, and these labels are computed as:
+
+$$
+l^{',t}=\{
+		\begin{aligned}
+		1, & \|f(\mathcal{G}^{t-(M-1):t}+\bm{\rho}) - l^t\|_1 > \lambda \cdot N\\ 
+		0, & \|f(\mathcal{G}^{t-(M-1):t}+\bm{\rho}) - l^t\|_1 \le\lambda \cdot N.
+	\end{aligned} \tag{1-1}
+$$
+
+ - The classifier is constructed with three graph-temporal modules and a 2D convolutional layer. Each graph-temporal module is composed of a graph convolution layer and a gate-based 1-D dilated convolutional layer. 
+
+ - The graph convolutional layer is applied to embedding correlations between variates. Supposing that $*_g$ denotes the graph convolution, $s_j$ denotes the input to the $j$th graph-temporal module, and $\Theta$ denotes the parameters of graph convolutional kernel computed from the adjacency matrix. The output of the graph convolutional layer in the $j$th graph-temporal module, $s'_j$, is computed as:
+
+$$
+s'_j= \Theta *_{g}s_j. \tag{1-2}
+$$
+
+ - The output of the graph convolutional layer goes into the 1-D dilated convolutional layer constructed with the gated linear unit (GLU). Supposing that $\Gamma$ denotes the kernel for 1-D convolution, $\otimes$ denotes the 1-D convolution operation, $\[U,V\]$ denotes the set of two intermediate outputs of the 1-D dilated-CNN, $\odot$ denotes the Hadamard product, $\mathcal{P}(s'_j)$ denotes sampling the input channel to be as same as the intermediate output $U$, and $\sigma(\cdot)$ denotes the sigmoid function, the output of GLU in the $j$th graph-temporal layer, $r_j$, is computed as:
+
+$$
+r_j=\Gamma \otimes s'_j=(U+\mathcal{P}(s'_j))\odot \sigma(V). \tag{1-3}
+$$
+
+ - The said two intermediate outputs, $\[U,V\]$, are split in half of the size of the graph convolutional layer's output channel. Let $\Theta_{1}$ and $\Theta_{2}$ be the parameters of the convolution kernels, $\mathbf{b}$ and $\mathbf{c}$ be the bias, $\star$ be the dilated convolutional operation, and $\[s'_U,s'_V\]$ denotes the equally split outputs from the graph convolutional layer. The two intermediate outputs are computed as:
+
+$$
+\begin{cases}
+U=\Theta_{1}\star s'_{U}+\mathbf{b}\\
+V=\Theta_{2}\star s'_{V}+\mathbf{c}. \tag{1-4}    
+\end{cases}
+$$
+
 ***Linear Error Propagation for Variate Identification.***
 
 While the aforementioned classifier can identify when to defend, this part presents the method to identify the variates to defend. Analogous to the case of timestamps, filtering all variates in the dangerous timestamp is not advisable because the forecasting model's vulnerability varies by variate. Based on this idea, this part proposes an approximate linear error propagation (ALEP) to identify the exact variates to protect, namely ``where to protect".
