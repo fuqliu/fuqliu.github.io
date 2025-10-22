@@ -2,7 +2,7 @@
 layout: page
 title: More Robust ITS
 description: Adversarial attack and defense against deep learning–based traffic forecasting.
-img: assets/img/ITS.jpg
+img: assets/img/robust_ITS.jpg
 importance: 3
 category: Resilient ITS
 ---
