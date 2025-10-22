@@ -82,13 +82,34 @@ $$
  - Identifying when is dangerous is formed as a time series classification problem. A hybrid GNN-based classifier is designed to identify whether a timeframe needs adversarial defenses. The proposed classifier, $\mathcal{C}$, parameterized by the coefficient set, $w$, is learned in the training dataset following:
 
 $$
-\mathop{\min_{\bm{w}}}=\left\|\mathcal{C}\left(\mathcal{G}^{t-(M-1):t},w\right)-l^{',t}\right\|_2. \tag{1-5}    
+\mathop{\min_{w}}=\|\mathcal{C}(\mathcal{G}^{t-(M-1):t},w)-l^{',t}\|_2. \tag{1-5}    
 $$
 
 ***Linear Error Propagation for Variate Identification.***
 
 While the aforementioned classifier can identify when to defend, this part presents the method to identify the variates to defend. Analogous to the case of timestamps, filtering all variates in the dangerous timestamp is not advisable because the forecasting model's vulnerability varies by variate. Based on this idea, this part proposes an approximate linear error propagation (ALEP) to identify the exact variates to protect, namely ``where to protect".
 
+ - The key idea is to utilize the DNN's high-dimension linearity to describe the correlation between a forecasting model's prediction errors and perturbations added into inputs. Specifically, well-designed unnoticeable noises can diffuse into many of the DNN's outputs and accumulate to be extremely large errors through the DNN's high-dimension mapping. 
 
+ -  The proposed Approximate Linear Error Propagatio (ALEP) is to compute the ratio of prediction errors to added perturbations. With a larger ratio, an added perturbation can lead to a greater prediction accuracy drop, and consequently, variates with a large ratio are regarded as ``dangerous". The said ratio, which is represented as $\delta^t_n$ for the $n$th variate in timestamp $t$, is computed as   
+
+$$
+\delta^t_n =\frac{\partial \|f(\mathcal{G}^{t-(M-1):t})-l^{'',t}\|_2}{\partial x_n^t}. \tag{1-6}  
+$$
+
+
+ - In Equation (1-6),  $l^{'',t}$ denotes the artificial label and it is designed as:
+
+$$
+l^{'',t}=\mathcal{G}^t+\beta. \tag{1-7}     
+$$
+
+ - In Equation (1-7), $\beta$ denotes the bias factor to tune the scale of artificial errors and it is computed from the training dataset, which is shown as:
+
+$$
+\beta = {\rm mean} \{f(\mathcal{G}^{t-(M-1):t}+\rho)-\mathcal{G}^t\}. 
+$$
+
+***Scatter Filter.***
 
 ---
