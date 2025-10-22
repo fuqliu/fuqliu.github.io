@@ -28,15 +28,15 @@ latest_posts:
 My research focuses on **AI safety**, specifically, to identify the potential risks hidden in powerful AI systems and develop resilient solutions for practical intelligent applications. Completed research projects are:
 
 ###### 1. **Potential Risks in LLMs for Time Series Forecasting** 
- - Adversarial attacks against LLM in time series forecasting [\(see\)](https://fuqliu.github.io/attack-llm4ts/).  
+ - Adversarial attacks against LLM in time series forecasting [\(link\)](https://fuqliu.github.io/projects/1_project/).  
  \[[AISTATS'25](https://proceedings.mlr.press/v258/liu25l.html)\]
- - Temporally sparse attacks against LLM in time series forecasting [\(see\)](https://openreview.net/pdf?id=oL806RzbDi).  
+ - Temporally sparse attacks against LLM in time series forecasting [\(link\)](https://fuqliu.github.io/projects/1_project/).  
  \[[ICLR'25 BuildingTrust](https://openreview.net/pdf?id=oL806RzbDi)\]
 
 ###### 2. **Resilient Intelligent Transportion System (ITS)** 
- - Accumulated and autocorrelated error adjustment for more accurate ITS [\(see\)](https://fuqliu.github.io/projects/2_project/).  
+ - Accumulated and autocorrelated error adjustment for more accurate ITS [\(link\)](https://fuqliu.github.io/projects/2_project/).  
  \[[TITS'22](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430)\] \[[INFFUS'25](https://www.sciencedirect.com/science/article/pii/S1566253525007079)\]
- - Adversarial danger identification for more robust ITS [\(see\)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10068359).  
+ - Adversarial danger identification for more robust ITS [\(link\)](https://fuqliu.github.io/projects/3_project/).  
  \[[TNNLS'23](https://ieeexplore.ieee.org/document/10068359)\] 
 
 ###### **Background**

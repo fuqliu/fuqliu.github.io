@@ -1,7 +1,7 @@
 ---
 layout: page
 title: More Robust ITS
-description: Adversarial attack and defense against deep learning–based traffic forecasting.
+description: Adversarial attacks and defenses against deep learning–based traffic forecasting.
 img: assets/img/robust_ITS.jpg
 importance: 3
 category: Resilient ITS
@@ -120,7 +120,7 @@ $$
 
 The scatter filter is used to replace the possible perturbations with dispersion errors. The key idea is that the dispersion errors can lead to less prediction accuracy drop compared with well-designed adversarial perturbations. 
 
-Supposing that $x$ denotes the input to the scatter filter, $\[\cdot\]$ denotes the normal rounding operation, and $k$ denotes the factor to tune the scale of input, the scatter filter, $\Phi(\cdot)$, is designed as
+Supposing that $x$ denotes the input to the scatter filter, $\[\cdot\]$ denotes the normal rounding operation, and $k$ denotes the factor to tune the scale of input, the scatter filter, $\Phi(\cdot)$, is designed as：
 
 $$
 \Phi(x)=[k \cdot x]. \tag{1-10}    
