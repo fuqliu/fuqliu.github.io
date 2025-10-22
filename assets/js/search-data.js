@@ -67,6 +67,11 @@ ninja.data = [{
           description: "Two model-agnostic solutions to improve deep learning–based traffic forecasting.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-more-robust-its",
+          title: 'More Robust ITS',
+          description: "Adversarial attack and defense against deep learning–based traffic forecasting.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
