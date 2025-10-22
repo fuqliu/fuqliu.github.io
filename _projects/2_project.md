@@ -4,7 +4,7 @@ title: More Accurate ITS
 description: Two model-agnostic solutions to improve deep learning–based traffic forecasting.
 img: assets/img/ITS.jpg
 importance: 2
-category: Trustworthy AI
+category: Resilient ITS
 ---
 
 ---
@@ -14,13 +14,13 @@ This project explores model-agnostic approaches for enhancing the performance of
  - [A universal framework of spatiotemporal bias block for long-term traffic forecasting](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9737430) *IEEE Transactions on Intelligent Transportation Systems*.
 
 ---
-
 ### 1. Autocorrelated Error Adjustment for Traffic Forecasting
 
 #### **Research gap**
 Mean squared error (MSE) estimation is frequently misapplied in the training of deep learning–based numerical forecasting models. Specifically,
 
  - Most existing studies treat forecasting tasks as regression problems and adopt standard regression training frameworks to optimize forecasting models.
+
  - Suppose each training example is denoted by a pair $\langle x, y \rangle$, where $x$ represents the input features and $y$ the corresponding target. The goal of regression is to learn a function $f$ that models the conditional distribution $p(y \mid x)$. A widely used approach is *maximum likelihood estimation (MLE)*, which seeks to maximize the likelihood of the observed data under the model distribution. Assuming errors follows a Gaussian distribution with variance $\sigma^2$, the general form of the MLE loss function is:
 
  $$ 
@@ -106,4 +106,34 @@ Mean squared error (MSE) estimation is frequently misapplied in the training of 
 <div class="caption">
     The framework of the proposed <u>S</u>patiotemporally <u>A</u>utocorrelated <u>E</u>rror <u>A</u>djustment. 
 </div>
+---
+### 2. A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting
+
+#### **Research gap**
+There are two general two approaches for multi-step traffic forecasting, namely: iterative multi-step forecasting and sequence-to-sequence (seq2seq) based forecasting. However, these two approaches have some major limitations, especially when it comes to long-term traffic forecasting (over 30 min in lead time). 
+
+- The central idea of iterative multi-step scheme is to iteratively feed the output of current prediction as an input into the subsequent prediction. 
+- However, the iterative use of previous results leads to accumulation of prediction errors throughout the whole process. Consequently, prediction errors of the said methods grow substantially with the length of prediction horizons. 
+
+- The seq2seq-based models directly produce sequences of multi-period predictions. 
+- Seq2seq models are typically computationally expensive to train, largely due to the convergence problems rooted in the high complexity of gradients computations when updating model parameters. 
+
+#### **Solution**
+
+***Overall structure of the uniform framework.***
+
+To enhance the long-term prediction ability of current forecasting models, we introduce the overall framework followed by the residual connection between the base model and bias block. The base model is a well-trained exsiting deep-learning-based forecasting methods, and the bias block is learnable to correct the long-term prediction error of the base model and consequently improve the base model's long-term prediction performance. 
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/framework.jpg" title="Framework" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Enhance the long-term prediction ability by the spatiotemporal bias block. 
+</div>
+
+$$
+\left\{ \mathcal{G}^{*}_{t+T},...\mathcal{G}^{*}_{t+1}\right\} = f\left(\left\{\mathcal{G}_{t},...\mathcal{G}_{t-(H-1)}\right\},\Phi\right)+\mathbb{B},
+$$
 ---
