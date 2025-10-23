@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I graduated with my Ph.D. from McGill University. Fall 2025 Convocation is awesome.
+I graduated with my [Ph.D. from McGill University](https://fuqliu.github.io/phd/). Fall 2025 Convocation is awesome.

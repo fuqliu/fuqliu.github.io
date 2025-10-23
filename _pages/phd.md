@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PhD
+title: Ph.D.
 permalink: /phd/
 ---
 

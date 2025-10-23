@@ -172,3 +172,24 @@ More detailed project page: [link](https://fuqliu.github.io/attack-llm4ts/)
       return noise
     </code></pre>
 </div>
+
+#### **Experiments**
+
+<div class="content has-text-justified">
+  <p>
+    As shown in Table 1, the experimental results demonstrate that the designed adversarial attack significantly degrades forecasting performance across all datasets. Compared to GWN of the same perturbation intensity, our attack had a much more detrimental effect on the models' predictions.
+  </p>
+  <img src="assets/img/attack_llm4ts/overall_table.jpg" alt="Overall Comparison" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <p>
+    Figure 2 demonstrates the robustness comparison between LLM-based forecasting models (LLMTime with GPT-4 and TimeGPT) and non-LLM models (iTransformer and TimeNet) under the proposed adversarial attack. The larger blue areas in the radar charts for the LLM-based models indicate that they experience significantly higher increases in errors, across all datasets (ETTh1, ETTh2, Exchange, Traffic, and Weather). In contrast, the non-LLM models, iTransformer and TimeNet, exhibit much smaller error increases, suggesting that they are more robust to adversarial attacks. This analysis highlights that LLM-based models are generally less resilient than non-LLM models, making them more vulnerable to adversarial manipulations in time series forecasting.
+  </p>
+  <img src="assets/img/attack_llm4ts/comparison.jpg" alt="Model Comparison" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <p>
+    As illustrated in Figure 3, the attack caused a clear divergence between the forecasted values and the true time series. LLMTime with GPT-3.5 in particular, showed significant susceptibility, with their errors increasing substantially under adversarial conditions.
+  </p> 
+  <img src="assets/img/attack_llm4ts/case.jpg" alt="Overall Comparison" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+  <p>
+    Figure 4 illustrates the distribution shift in predictions caused by targeted perturbations on the LLM-based forecasting model. The proposed DGA method is designed to mislead the forecasting model, causing its predictions to resemble a random walk. As depicted in Figure 4, the "blue" shaded area, representing the perturbed prediction distribution, deviates significantly from the original "yellow" distribution and approaches a normal distribution. This shift underscores how subtle, well-crafted perturbations can manipulate the model into producing inaccurate forecasts. The effect of DGA-induced perturbations is pronounced when examining the prediction distributions, where errors are much more severe compared to the minor disruptions caused by GWN. These findings suggest that LLM-based forecasting models are highly susceptible to adversarial attacks that exploit the model's inherent vulnerabilities.
+  </p>
+  <img src="assets/img/attack_llm4ts/distribution.jpg" alt="Distribution Comparison" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+</div>
