@@ -6,7 +6,7 @@ description: A collection of projects to identify the adversarial risks in pract
 nav: true
 nav_order: 3
 display_categories: [Trustworthy LLM4TS, Resilient ITS]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
