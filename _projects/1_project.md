@@ -222,3 +222,16 @@ More detailed project page: [link](https://fuqliu.github.io/attack-llm4ts/)
         {% include figure.liquid loading="eager" path="assets/img/attack_llm4ts/distribution.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+<div class="container is-max-desktop content">
+  <h2 class="title">BibTeX</h2>
+  <pre><code>@inproceedings{liu2025adversarial,
+  title={Adversarial Vulnerabilities in Large Language Models for Time Series Forecasting},
+  author={Liu, Fuqiang and Jiang, Sicong and Miranda-Moreno, Luis and Choi, Seongjin and Sun, Lijun},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={4672--4680},
+  year={2025},
+  organization={PMLR}
+  }</code></pre>
+</div>
