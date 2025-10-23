@@ -23,6 +23,6 @@ Reviewer for Journals
  - [Information Fusion](https://www.sciencedirect.com/journal/information-fusion)
  - [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 
 
- Membership
+Membership
  - [IEEE](https://www.ieee.org/)
  - [CIRRELT](https://www.cirrelt.ca/)
