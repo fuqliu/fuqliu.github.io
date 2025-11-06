@@ -40,6 +40,6 @@ My research focuses on **AI safety**, specifically, to identify the potential ri
  \[[TNNLS'23](https://ieeexplore.ieee.org/document/10068359)\] 
 
 ###### **Background**
-I graduated with my Ph.D. in Intelligient Transporation System (ITS) from [McGill University](https://www.mcgill.ca/), Canada, co-supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.mcgill.ca/civil/luis-miranda-moreno). Prior to my doctorate, I earned two Master of Science (MSc) degrees in Electrical and Computer Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
+I graduated with my Ph.D. in Intelligient Transporation System (ITS) from [McGill University](https://www.mcgill.ca/), Canada, co-supervised by [Prof. Lijun Sun](https://lijunsun.github.io/) and [Prof. Luis Miranda-Moreno](https://www.imats.ca/). Prior to my doctorate, I earned two Master of Science (MSc) degrees in Electrical and Computer Engineering from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/), China, and [Clarkson University](https://www.clarkson.edu/), USA. I also hold a Bachelor's degree in Electrical and Electronic Engineering from [BIT](https://english.bit.edu.cn/), China.
 
 ---
