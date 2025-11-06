@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 ---
-Reviewer/Program Committee for top AI Conference
+Reviewer/Program Committee for Top AI Conference
  - [NeurIPS](https://neurips.cc/) 2022 2023 2024 2025
  - [ICML](https://icml.cc/) 2022 2023 2024
  - [ICLR](https://iclr.cc/) 2024 2026
